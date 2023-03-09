@@ -51,7 +51,7 @@ public class Main {
         for (int index = 0; index < arr.length; index++) {
             sum = sum + arr[index];
         }
-        int averagesum = sum / 30;
+        double averagesum = sum / 30;
         System.out.println(" «Средняя сумма трат за месяц составила " + averagesum + " рублей");
 
     }
